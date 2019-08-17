@@ -1,6 +1,6 @@
 {
   "name": "indonesia-merdeka",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "description": "Untuk indonesia tanah airku tercinta",
   "main": "index.js",
   "scripts": {
@@ -19,7 +19,6 @@
     "align-text": "^1.0.2",
     "asciify-image": "^0.1.5",
     "chalk-animation": "^1.6.0",
-    "clear": "^0.1.0",
     "node-emoji": "^1.10.0",
     "play-sound": "^1.1.3"
   }

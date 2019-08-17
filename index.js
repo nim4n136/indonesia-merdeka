@@ -1,5 +1,4 @@
 const player = require('play-sound')(opts = {})
-const clear = require('clear');
 const asciify = require('asciify-image');
 const chalkAnimation = require('chalk-animation');
 const align = require('align-text');
@@ -18,7 +17,6 @@ Dirgahayu Republik indonesia.
 Made with️ ❤ NIM4N | <nim4n136@gmail.com>`;
 
 exports.lestGoIndonesia  = function(){
-  clear();
   console.log(align( "\n"+emoji.get("flag-id")+" | Dirgahayu Republik indonesia Ke-74 | " + emoji.get("flag-id")+"\n",4));
   var options = {
     fit:    'box',
@@ -31,8 +29,10 @@ exports.lestGoIndonesia  = function(){
     chalkAnimation.pulse(align('\nSelamat! Hari Kemerdekaan Ke-74\n------------------------------------'+qoute,4),2);
   });
 
-  player.play(__dirname+'/indonesia.mp3', function(err){
-    if (err) throw err
+  player.play(__dirname+'/indonesia.mp3',{ timeout: 300 }, function(err){
+    if (err){
+      // no catch
+    }
   })
 
 }
