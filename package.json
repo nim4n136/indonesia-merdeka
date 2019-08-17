@@ -1,0 +1,26 @@
+{
+  "name": "indonesia-merdeka",
+  "version": "1.0.5",
+  "description": "Untuk indonesia tanah airku tercinta",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "merdeka": "./bin/index"
+  },
+  "keywords": [
+    "indonesia",
+    "merdeka"
+  ],
+  "author": "nim4n <nim4n136@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "align-text": "^1.0.2",
+    "asciify-image": "^0.1.5",
+    "chalk-animation": "^1.6.0",
+    "clear": "^0.1.0",
+    "node-emoji": "^1.10.0",
+    "play-sound": "^1.1.3"
+  }
+}
